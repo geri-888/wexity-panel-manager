@@ -17,7 +17,7 @@ Modern Pterodactyl Client API (PTLC) web panel with Hungarian/English support.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/wexity-panel-manager.git
+git clone https://github.com/geri-888/wexity-panel-manager.git
 cd wexity-panel-manager
 
 # Install dependencies
