@@ -1,5 +1,5 @@
 // Modal Component
-import { t } from '../lib/i18n.js';
+import { t } from '../../lib/i18n.js';
 
 class ModalManager {
     constructor() {
