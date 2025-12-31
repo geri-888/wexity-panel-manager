@@ -12,12 +12,18 @@ class PterodactylAPI {
         const state = authStore.getState();
         this.baseUrl = state.panelUrl;
         this.apiKey = state.apiKey;
+
+        // In development, use the local proxy to avoid CORS
+        if (import.meta.env.DEV) {
+            this.baseUrl = '';
+        }
     }
 
     async request(endpoint, options = {}) {
         this.init();
 
-        if (!this.baseUrl || !this.apiKey) {
+        // Check if configured (allow empty baseUrl in dev mode due to proxy)
+        if ((!this.baseUrl && !import.meta.env.DEV) || !this.apiKey) {
             throw new Error('API not configured');
         }
 
