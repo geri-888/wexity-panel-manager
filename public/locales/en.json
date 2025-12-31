@@ -1,0 +1,168 @@
+{
+    "app": {
+        "name": "Wexity Panel Manager",
+        "description": "Modern Pterodactyl Client API Panel"
+    },
+    "nav": {
+        "dashboard": "Dashboard",
+        "servers": "Servers",
+        "files": "Files",
+        "console": "Console",
+        "databases": "Databases",
+        "backups": "Backups",
+        "tools": "Tools",
+        "settings": "Settings",
+        "logout": "Logout"
+    },
+    "setup": {
+        "title": "Welcome to Wexity Panel",
+        "subtitle": "Let's get you set up",
+        "panelUrl": "Pterodactyl Panel URL",
+        "panelUrlPlaceholder": "https://panel.example.com",
+        "apiKey": "Client API Key",
+        "apiKeyPlaceholder": "ptlc_xxxxxxxxxxxxxxxx",
+        "apiKeyHelp": "You can find this in Account → API Credentials",
+        "accessCode": "Access Code (Optional)",
+        "accessCodeHelp": "Set a code to protect panel access",
+        "language": "Language",
+        "theme": "Theme",
+        "continue": "Continue",
+        "skip": "Skip",
+        "finish": "Finish Setup"
+    },
+    "login": {
+        "title": "Enter Access Code",
+        "subtitle": "Enter your PIN to continue",
+        "wrongCode": "Incorrect code",
+        "forgot": "Forgot code?",
+        "reset": "Reset Setup"
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "subtitle": "Manage your servers",
+        "noServers": "No servers found",
+        "noServersText": "Check your API key or panel URL"
+    },
+    "server": {
+        "status": "Status",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "start": "Start",
+        "stop": "Stop",
+        "restart": "Restart",
+        "kill": "Kill",
+        "cpu": "CPU",
+        "memory": "Memory",
+        "disk": "Disk",
+        "uptime": "Uptime",
+        "address": "Address",
+        "players": "Players"
+    },
+    "files": {
+        "title": "File Manager",
+        "upload": "Upload",
+        "newFile": "New File",
+        "newFolder": "New Folder",
+        "download": "Download",
+        "rename": "Rename",
+        "delete": "Delete",
+        "copy": "Copy",
+        "move": "Move",
+        "compress": "Compress",
+        "extract": "Extract",
+        "save": "Save",
+        "saveSuccess": "File saved successfully",
+        "saveError": "Failed to save file",
+        "deleteConfirm": "Are you sure you want to delete this?",
+        "versions": "Version History",
+        "noVersions": "No previous versions",
+        "restoreVersion": "Restore Version",
+        "currentVersion": "Current Version"
+    },
+    "console": {
+        "title": "Console",
+        "send": "Send",
+        "placeholder": "Enter command...",
+        "clear": "Clear",
+        "uploadToMclogs": "Upload to MCLogs",
+        "mclogsSuccess": "Uploaded! Link copied to clipboard",
+        "mclogsError": "Failed to upload to MCLogs"
+    },
+    "tools": {
+        "title": "Tools",
+        "mclogs": {
+            "title": "MCLogs",
+            "description": "Upload console logs to mclo.gs",
+            "upload": "Upload Logs",
+            "viewLink": "View on MCLogs"
+        },
+        "plugins": {
+            "title": "Plugin Downloader",
+            "description": "Search and download plugins",
+            "search": "Search plugins...",
+            "version": "Version",
+            "downloads": "Downloads",
+            "install": "Install",
+            "installing": "Installing...",
+            "installed": "Installed"
+        },
+        "backup": {
+            "title": "Backup Manager",
+            "create": "Create Backup",
+            "restore": "Restore",
+            "delete": "Delete",
+            "noBackups": "No backups found"
+        }
+    },
+    "settings": {
+        "title": "Settings",
+        "account": "Account",
+        "apiKey": "API Key",
+        "changeApiKey": "Change API Key",
+        "accessCode": "Access Code",
+        "changeCode": "Change Code",
+        "removeCode": "Remove Code",
+        "appearance": "Appearance",
+        "theme": "Theme",
+        "language": "Language",
+        "panel": "Panel",
+        "panelUrl": "Panel URL",
+        "danger": "Danger Zone",
+        "reset": "Reset All Settings",
+        "resetConfirm": "This will clear all settings. Are you sure?"
+    },
+    "themes": {
+        "dark": "Dark",
+        "light": "Light",
+        "cyberpunk": "Cyberpunk",
+        "ocean": "Ocean",
+        "sunset": "Sunset"
+    },
+    "common": {
+        "save": "Save",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "close": "Close",
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "warning": "Warning",
+        "info": "Info",
+        "yes": "Yes",
+        "no": "No",
+        "back": "Back",
+        "next": "Next",
+        "refresh": "Refresh",
+        "copy": "Copy",
+        "copied": "Copied!"
+    },
+    "errors": {
+        "connection": "Connection failed",
+        "auth": "Authentication failed",
+        "notFound": "Not found",
+        "server": "Server error",
+        "unknown": "Unknown error"
+    }
+}

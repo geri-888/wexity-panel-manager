@@ -1,0 +1,168 @@
+{
+    "app": {
+        "name": "Wexity Panel Manager",
+        "description": "Modern Pterodactyl Client API Panel"
+    },
+    "nav": {
+        "dashboard": "Vezérlőpult",
+        "servers": "Szerverek",
+        "files": "Fájlok",
+        "console": "Konzol",
+        "databases": "Adatbázisok",
+        "backups": "Mentések",
+        "tools": "Eszközök",
+        "settings": "Beállítások",
+        "logout": "Kijelentkezés"
+    },
+    "setup": {
+        "title": "Üdvözöl a Wexity Panel",
+        "subtitle": "Állítsuk be a panelt",
+        "panelUrl": "Pterodactyl Panel URL",
+        "panelUrlPlaceholder": "https://panel.example.com",
+        "apiKey": "Client API Kulcs",
+        "apiKeyPlaceholder": "ptlc_xxxxxxxxxxxxxxxx",
+        "apiKeyHelp": "A Fiók → API Hitelesítő adatok menüben találod",
+        "accessCode": "Belépési Kód (Opcionális)",
+        "accessCodeHelp": "Állíts be egy kódot a panel védelméhez",
+        "language": "Nyelv",
+        "theme": "Téma",
+        "continue": "Tovább",
+        "skip": "Kihagyás",
+        "finish": "Beállítás Befejezése"
+    },
+    "login": {
+        "title": "Add meg a belépési kódot",
+        "subtitle": "Írd be a PIN kódodat a folytatáshoz",
+        "wrongCode": "Hibás kód",
+        "forgot": "Elfelejtetted a kódot?",
+        "reset": "Beállítások Visszaállítása"
+    },
+    "dashboard": {
+        "title": "Vezérlőpult",
+        "subtitle": "Szerverek kezelése",
+        "noServers": "Nem található szerver",
+        "noServersText": "Ellenőrizd az API kulcsot vagy a panel URL-t"
+    },
+    "server": {
+        "status": "Állapot",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Indítás",
+        "stopping": "Leállítás",
+        "start": "Indítás",
+        "stop": "Leállítás",
+        "restart": "Újraindítás",
+        "kill": "Kényszerleállítás",
+        "cpu": "CPU",
+        "memory": "Memória",
+        "disk": "Tárhely",
+        "uptime": "Üzemidő",
+        "address": "Cím",
+        "players": "Játékosok"
+    },
+    "files": {
+        "title": "Fájlkezelő",
+        "upload": "Feltöltés",
+        "newFile": "Új Fájl",
+        "newFolder": "Új Mappa",
+        "download": "Letöltés",
+        "rename": "Átnevezés",
+        "delete": "Törlés",
+        "copy": "Másolás",
+        "move": "Áthelyezés",
+        "compress": "Tömörítés",
+        "extract": "Kicsomagolás",
+        "save": "Mentés",
+        "saveSuccess": "Fájl sikeresen mentve",
+        "saveError": "Fájl mentése sikertelen",
+        "deleteConfirm": "Biztosan törölni szeretnéd?",
+        "versions": "Verzió előzmények",
+        "noVersions": "Nincsenek korábbi verziók",
+        "restoreVersion": "Verzió visszaállítása",
+        "currentVersion": "Jelenlegi verzió"
+    },
+    "console": {
+        "title": "Konzol",
+        "send": "Küldés",
+        "placeholder": "Parancs beírása...",
+        "clear": "Törlés",
+        "uploadToMclogs": "Feltöltés MCLogs-ra",
+        "mclogsSuccess": "Feltöltve! Link másolva a vágólapra",
+        "mclogsError": "MCLogs feltöltés sikertelen"
+    },
+    "tools": {
+        "title": "Eszközök",
+        "mclogs": {
+            "title": "MCLogs",
+            "description": "Konzol naplók feltöltése a mclo.gs-re",
+            "upload": "Naplók Feltöltése",
+            "viewLink": "Megtekintés MCLogs-on"
+        },
+        "plugins": {
+            "title": "Plugin Letöltő",
+            "description": "Pluginok keresése és letöltése",
+            "search": "Pluginok keresése...",
+            "version": "Verzió",
+            "downloads": "Letöltések",
+            "install": "Telepítés",
+            "installing": "Telepítés...",
+            "installed": "Telepítve"
+        },
+        "backup": {
+            "title": "Mentés Kezelő",
+            "create": "Mentés Létrehozása",
+            "restore": "Visszaállítás",
+            "delete": "Törlés",
+            "noBackups": "Nincsenek mentések"
+        }
+    },
+    "settings": {
+        "title": "Beállítások",
+        "account": "Fiók",
+        "apiKey": "API Kulcs",
+        "changeApiKey": "API Kulcs Módosítása",
+        "accessCode": "Belépési Kód",
+        "changeCode": "Kód Módosítása",
+        "removeCode": "Kód Eltávolítása",
+        "appearance": "Megjelenés",
+        "theme": "Téma",
+        "language": "Nyelv",
+        "panel": "Panel",
+        "panelUrl": "Panel URL",
+        "danger": "Veszélyes Zóna",
+        "reset": "Összes Beállítás Törlése",
+        "resetConfirm": "Ez törli az összes beállítást. Biztos vagy benne?"
+    },
+    "themes": {
+        "dark": "Sötét",
+        "light": "Világos",
+        "cyberpunk": "Cyberpunk",
+        "ocean": "Óceán",
+        "sunset": "Naplemente"
+    },
+    "common": {
+        "save": "Mentés",
+        "cancel": "Mégse",
+        "confirm": "Megerősítés",
+        "close": "Bezárás",
+        "loading": "Betöltés...",
+        "error": "Hiba",
+        "success": "Sikeres",
+        "warning": "Figyelmeztetés",
+        "info": "Információ",
+        "yes": "Igen",
+        "no": "Nem",
+        "back": "Vissza",
+        "next": "Tovább",
+        "refresh": "Frissítés",
+        "copy": "Másolás",
+        "copied": "Másolva!"
+    },
+    "errors": {
+        "connection": "Kapcsolódási hiba",
+        "auth": "Hitelesítési hiba",
+        "notFound": "Nem található",
+        "server": "Szerver hiba",
+        "unknown": "Ismeretlen hiba"
+    }
+}
